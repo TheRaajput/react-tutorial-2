@@ -1,0 +1,13 @@
+p {
+  border: 0.1px solid black;
+  border-radius: 10px;
+  padding: 5px;
+  margin-bottom: 5px;
+  font-size: 1rem;
+  font-weight: 500;
+}
+
+
+.padding_prop{
+  padding: 3px;
+}

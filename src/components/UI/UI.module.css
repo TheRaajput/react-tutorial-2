@@ -1,0 +1,47 @@
+.card {
+  width: 30%;
+  height: max-content;
+  background-color: white;
+  border-radius: 10px;
+  margin: 30px auto;
+}
+
+.btn {
+  background-color: purple;
+  color: white;
+  padding: 10px;
+  border-radius: 10px;
+  outline: none !important;
+  margin-top: 10px;
+}
+
+.modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgba(0, 0, 0, 0.7);
+}
+
+.Modal__head {
+  background-color: purple;
+  color: white;
+  height: min-content;
+  padding: 5px;
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
+}
+
+.Modal__body,.Modal__foot {
+  padding: 10px;
+}
+
+@media (max-width: 768px) {
+  .card {
+    width: 70%;
+  }
+}

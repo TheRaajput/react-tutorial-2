@@ -1,0 +1,22 @@
+.form{
+  padding: 10px;
+}
+
+.form-group {
+  margin-bottom: 5px;
+}
+
+.form-group__label{
+    display: block;
+    font-weight: 700;
+}
+
+.form-group__input{
+    display: block;
+    width: 95%;
+    background: transparent;
+    outline: none;
+    padding: 5px;
+    border: 1px solid black;
+    border-radius: 5px;
+}
